@@ -1,0 +1,8 @@
+h1 {
+    color: blue;
+    font-size: 12px;
+}
+
+button[type="submit"]{
+    color: rgb(255, 0, 0);
+}

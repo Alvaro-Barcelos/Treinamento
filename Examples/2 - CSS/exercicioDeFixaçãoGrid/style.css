@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: darkgray;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    gap: 10px 15px;
+    grid-auto-rows: minmax(310px, auto);
+}
+
+.item{
+    border: 2px solid;
+    background-color: white;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.item1{
+    grid-column: 1/4;
+}

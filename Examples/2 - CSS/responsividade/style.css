@@ -1,0 +1,47 @@
+.img-content{
+    width: 726px;
+    height: 400px;
+}
+
+.text-content{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media(max-width: 2570px) and (min-width:1440px){
+    body{
+        background-color: red;
+    }
+
+    .img-content{
+        width: 60%;
+        height: auto;
+    }
+
+    .text-content{
+        font-size: 26px;
+    }
+    
+}
+
+@media (max-width: 790px){
+    .img-content{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 425px){
+    .img-content{
+        width: 100%;
+        height: auto;
+    }
+    .text-content{
+        text-align: center;
+        font-size: 18px;
+    }
+    .title-content{
+        text-align: center;
+    }
+}
+

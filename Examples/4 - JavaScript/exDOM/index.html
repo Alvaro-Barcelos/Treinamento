@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <form id="formCasa">
+        <p>
+            <label>Numero da Residência</label>
+            <input type="text" name="numero" id="numero">
+        </p>
+
+        <p>
+            <label>Bairro:</label>
+            <input type="text" name="bairro" id="bairro">
+        </p>
+
+        <p>
+            <label>Cidade</label>
+            <input type="text" name="cidade" id="cidade">
+        </p>
+
+        <p>
+            <label>Área da casa</label>
+            <input type="text" name="areaCasa" id="areaCasa">
+        </p>
+
+        <button onclick="addCasa()" type="button">Adicionar</button>
+    </form>
+
+    <ul id="house-list">
+
+    </ul>
+</body>
+</html>

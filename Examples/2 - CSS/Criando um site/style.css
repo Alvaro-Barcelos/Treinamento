@@ -1,0 +1,23 @@
+body{
+    background-color: #333C5C;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    background-color: #EECB00;
+    border: 2px solid;
+    box-shadow: 2px 2px 2px;
+}
+
+h4{
+    color: #d3b000;
+}
+ul li {
+    color: white;
+}
+.red{
+    color: rgb(194, 0, 0);
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>SpaceX</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="Site.html"><img src="img/logo.png" alt="imagem da spaceX" ></a>
+            /<a href="The_spaceships.html">The Spacehips</a> /
+            <a href="Hire_Us.html">Hire Us</a>
+        </nav>
+    </header>
+    <hr>
+    <section>
+        <h2>Hire Us Now</h2>
+        <p>Leave a mesage to request one of our services and we will get back to you as soon as possible</p>
+    </section>
+    <br> <br>
+    
+    <section>
+        <form action="">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" required>
+                <label for="email">- Email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <br><br>
+            <div>
+                <label for="space">Spaceship:</label>
+                <select name="space" id="space">
+                    <option value="falcon">Falcon 9</option>
+                    <option value="heavy">Falcon heavy</option>
+                </select>
+                
+                <label for="service">- Type of Service:</label>
+                <input type="text" name="service" id="service" list="list-service"/>
+                <datalist id="list-service">
+                    <option value="1  Nam quis nulla. Integer malesuada"></option>
+                    <option value="2  Nam quis nulla. Integer malesuada"></option>
+                    <option value="3 Nam quis nulla. Integer malesuada"> </option>
+                <option value="4  Nam quis nulla. Integer malesuada"></option>
+                </datalist>
+            </div>
+            <br> <br>
+            <div>
+                <input type="submit" value="Send Message">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
